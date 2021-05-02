@@ -17,15 +17,24 @@
 }
 .main {
     width: 960px;
-    background-color:limegreen;
-   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 .main-content {
     width: 500px;
     height: 1400px;
-    padding: 0 230px;
     background-color: greenyellow;
-    margin: 0 auto;
+}
+.sidebar-right {
+    width: 230px;
+    height: 1400px;
+    background-color: limegreen;
+}
+.sidebar-left  {
+    width: 230px;
+    height: 1400px;
+    background-color: limegreen;
 }
 .footer {
     width: 100%;
