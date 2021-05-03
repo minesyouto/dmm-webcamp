@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: gray;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    position: relative;
+}
+.header-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: gray;
+}
+.main-content {
+    width: 840px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.content {
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
+}
