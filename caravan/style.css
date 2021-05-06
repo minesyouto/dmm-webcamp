@@ -161,7 +161,7 @@ main {
     margin-bottom: 10px;
 }
 .instagram-box:nth-child(odd){
-    margin-right: 10px;
+        margin-right: 10px;
 }
 .instagram-box:nth-child(1) {
     background-image: url(img/airport.jpg);
@@ -190,4 +190,55 @@ footer {
 }
 .footer-text{
     color: #fff;
+}
+
+
+@media screen and (max-width:425px) {
+    header {
+        width: 100%;
+    }
+    .nav-list {
+        width: 100%;
+    }
+    .nav-list-item {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .social {
+        display: none;
+    }
+    .main-visual-content {
+        width: 100%;
+    }
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog {
+        width: 100%;
+        margin: 0;
+    }
+    .blog-box {
+        padding: 0 3%;
+    }
+    .blog-image {
+        width: 49%;
+    }
+    .blog-text {
+        width: 49%;
+    }
+    .sidebar {
+        width: 100%;
+        padding: 0 3%;
+    }
+    .instagram-box {
+        width: 48%;
+        padding-top: 48%;
+    }
+    .instagram-box:nth-child(odd) {
+        margin-right: 4%;
+    }
+    .pagination {
+        margin-bottom: 50px;
+    }
 }
